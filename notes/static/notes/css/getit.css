@@ -1,0 +1,158 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.appbar{background-color:#f7d736;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  
+
+}
+.logo{
+max-width:5rem;
+max-height:5rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.form-card{
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding:1rem;
+  height: 6rem;
+  width: 30rem;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-card-title{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  width:100%;
+  font-size: large;
+}
+
+.autoresize{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  width:100%;
+
+}
+.btn{
+  background-color: #f7d736;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border-radius: 2px;
+  width:100%;
+  height: 20px;
+}
+.card-container{
+  display: table;
+  clear: both;
+  flex-wrap: wrap;
+  font-family: 'Permanent Marker', cursive;
+}
+.card{
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding:1rem;
+  text-align: center;
+  height: 7rem;
+  width: 12rem;
+  border-radius: 2px;
+  font-family: 'Permanent Marker', cursive;
+}
+.card-title{
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+}
+.card-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: text-bottom;
+}
+.card-color-1{
+  background-color: #fae890;
+}
+
+.card-color-2{
+  background-color: #ead3a7;
+}
+
+.card-color-3{
+  background-color: #9de0f5;
+}
+
+.card-color-4{
+  background-color: #ef89ba;
+}
+
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(1deg);
+}
+.card-rotation-2{
+  transform: rotate(2deg);
+}
+.card-rotation-2{
+  transform: rotate(3deg);
+}
+.card-rotation-3{
+  transform: rotate(4deg);
+}
+.card-rotation-4{
+  transform: rotate(5deg);
+}
+.card-rotation-5{
+  transform: rotate(-1deg);
+}
+.card-rotation-6{
+  transform: rotate(-2deg);
+}
+.card-rotation-7{
+  transform: rotate(-3deg);
+}
+.card-rotation-8{
+  transform: rotate(-4deg);
+}
+.card-rotation-9{
+  transform: rotate(-5deg);
+}
+.card-rotation-10{
+  transform: rotate(0deg);
+}
+.card-rotation-11{
+  transform: rotate(9deg);
+}
+
